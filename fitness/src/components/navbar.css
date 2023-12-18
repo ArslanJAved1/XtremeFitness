@@ -1,0 +1,57 @@
+.NavBar {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: var(--color-dark);
+  display: flex;
+  height: var(--nav-height);
+  max-height: var(--nav-height);
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 1rem;
+}
+
+.menu {
+  position: relative;
+  color: var(--color-light);
+  text-decoration: none;
+  text-transform: uppercase;
+  list-style: none;
+  transition: 0.6s;
+  margin: 0;
+}
+
+.link {
+  padding: 20px;
+  color: var(--color-light);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.6s;
+}
+
+.padding10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu-logo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: var(--color-light);
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: auto;
+  justify-self: flex-start;
+  white-space: nowrap;
+}
+
+.menu-logo img {
+  height: var(--nav-height);
+}
+
+.menu:hover .link {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  transition: 0.6s;
+}

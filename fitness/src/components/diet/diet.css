@@ -1,0 +1,44 @@
+.diet_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.diet_title {
+  align-self: center;
+}
+
+.options {
+  align-self: center;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.diet_plans {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.diet_card {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+.diet_card:hover {
+  box-shadow: 0 4px 8px 0 rgb(0, 134, 244), 0 6px 20px 0 rgba(0, 255, 251, 0.85);
+}
+
+.diet_card_details {
+  align-self: center;
+}
+
+.diet_plan {
+  padding: 5rem;
+}

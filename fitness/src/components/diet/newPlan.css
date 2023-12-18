@@ -1,0 +1,23 @@
+.np_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.np_sub_container {
+  background-color: white;
+  box-shadow: rgba(33, 107, 182, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+.np_inner_contaner {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
